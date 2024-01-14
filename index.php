@@ -21,7 +21,7 @@ if (isset($_GET['email'])) {
         $mail->isSMTP();
         $mail->Host = 'smtp.example.com'; // Replace with your SMTP server
         $mail->SMTPAuth = true;
-        $mail->Username = 'dark@youremail.co.uk'; // Replace with your SMTP username
+        $mail->Username = 'your email'; // Replace with your SMTP username
         $mail->Password = 'passwordhere'; // Replace with your SMTP password
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
